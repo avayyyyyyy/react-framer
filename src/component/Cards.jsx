@@ -22,7 +22,7 @@ const Cards = () => {
     },
   ];
   return (
-    <div className="flex absolute gap-6 p-6 z-40 ">
+    <div className="flex absolute gap-6 flex-wrap h-[100vh] overflow-hidden p-6 z-40 ">
       {data.map((item, index) => (
         <Card key={index} dataa={item} />
       ))}
