@@ -6,9 +6,10 @@ const Background = () => {
       <span className="absolute left-[50%] -translate-x-[50%] mt-16 text-zinc-400">
         Document
       </span>
-      <h1 className="font-bold text-[12rem] absolute left-[50%] top-[50%]  -translate-x-[50%] -translate-y-[50%]">
+      <div className="font-bold text-[12rem] absolute left-[50%] top-[50%]  -translate-x-[50%] -translate-y-[50%]">
         Docs.
-      </h1>
+      </div>
+      <span className="absolute left-[50%] bottom-[37%] -translate-x-[50%] text-red-800">By Shubhankit Jain</span>
     </div>
   );
 };
