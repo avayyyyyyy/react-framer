@@ -2,7 +2,7 @@ import { FaFileAlt } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { motion } from "framer-motion";
 
-const Card = ({ dataa }) => {
+const Card = ({ dataa, reference }) => {
   return (
     <motion.div
       drag
