@@ -10,7 +10,7 @@ const Card = ({ dataa, reference }) => {
       whileFocus={{ scale: 1.2 }}
       dragElastic={0.2}
       dragConstraints={reference}
-      dragTransition={{ bounceStiffness: 600, bounceDamping: 10 }}
+      dragTransition={{ bounceStiffness: 200, bounceDamping: 10 }}
       className=" overflow-hidden  h-[280px] w-[280px] bg-zinc-950 rounded-[15px] opacity-70 text-zinc-100 flex flex-col justify-between "
     >
       <div className="p-5 flex flex-col h-[100%] justify-between">
