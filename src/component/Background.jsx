@@ -2,7 +2,7 @@ import "./Background.css";
 
 const Background = () => {
   return (
-    <div className="h-screen w-full bg-zinc-800 z-[-1] text-zinc-900 main flex-col relative select-none">
+    <div className="h-screen w-screen bg-zinc-800 z-[-1] text-zinc-900 main flex-col relative select-none">
       <span className="absolute left-[50%] -translate-x-[50%] mt-16 text-zinc-400">
         Document
       </span>
