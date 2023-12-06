@@ -10,7 +10,7 @@ const Card = ({ dataa }) => {
       whileFocus={{ scale: 1.2 }}
       dragElastic={0.2}
       dragTransition={{ bounceStiffness: 600, bounceDamping: 10 }}
-      className=" overflow-hidden sm:h-[180px] sm:w-[200px] h-[280px] w-[260px] bg-zinc-950 rounded-[15px] opacity-70 text-zinc-100 flex flex-col justify-between "
+      className=" overflow-hidden sm:w-[200px] h-[280px] w-[260px] bg-zinc-950 rounded-[15px] opacity-70 text-zinc-100 flex flex-col justify-between "
     >
       <div className="p-5 flex flex-col h-[100%] justify-between">
         <FaFileAlt />
