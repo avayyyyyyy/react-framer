@@ -4,7 +4,14 @@ import { motion } from "framer-motion";
 
 const Card = ({ dataa }) => {
   return (
-    <motion.div drag whileDrag={{ scale: 1.2 }} whileFocus={{ scale: 1.2 }} dragElastic={0.2} dragTransition={{ bounceStiffness: 600, bounceDamping: 10 }} className=" overflow-hidden h-[260px] w-[220px] bg-zinc-950 rounded-[15px] opacity-70 text-zinc-100 flex flex-col justify-between">
+    <motion.div
+      drag
+      whileDrag={{ scale: 1.2 }}
+      whileFocus={{ scale: 1.2 }}
+      dragElastic={0.2}
+      dragTransition={{ bounceStiffness: 600, bounceDamping: 10 }}
+      className=" overflow-hidden h-[260px] w-[220px] bg-zinc-950 rounded-[15px] opacity-70 text-zinc-100 flex flex-col justify-between"
+    >
       <div className="p-5 flex flex-col h-[100%] justify-between">
         <FaFileAlt />
         <h3 className="my-3">{dataa.desc}</h3>
