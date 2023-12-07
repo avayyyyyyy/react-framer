@@ -26,7 +26,7 @@ const Cards = () => {
   return (
     <div
       ref={ref}
-      className="flex absolute gap-6 flex-wrap h-[100vh] overflow-hidden p-6 z-40 "
+      className="flex absolute gap-6 flex-wrap h-[100vh] w-screen overflow-hidden p-6 z-40 "
     >
       {data.map((item, index) => (
         <Card key={index} reference={ref} dataa={item} />

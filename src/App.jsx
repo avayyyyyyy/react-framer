@@ -3,7 +3,7 @@ import Cards from "./component/Cards";
 import Foreground from "./component/Foreground";
 function App() {
   return (
-    <div className="overflow-hidden">
+    <div className="">
       <Cards />
       <Foreground />
       <Background />
